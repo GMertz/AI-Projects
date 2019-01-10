@@ -1,5 +1,3 @@
-# See bottom of file for instructions
-
 import matplotlib
 matplotlib.use("TkAgg")  # This seems necessary for the animation to work within PyCharm
 import matplotlib.pyplot as plt
