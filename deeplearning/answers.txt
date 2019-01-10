@@ -1,0 +1,27 @@
+What level of accuracy would a random classifier get?
+
+A random classifier would theoretically get 1 out of every N images correct, where N is the number of potential classes. In the case of the CIFAR-10 dataset, where there are 10 classes, the expected level of accuracy would be 1 in 10, or 10%. 
+
+What is pictured in image number 42 (zero based) in the first training batch?
+
+Image 42 is a bird, probably an emu or ostrich judging by its very long legs and neck, but it could easily be some strange alien creature.
+
+What is the structure of your deep network?
+
+Our deep network has an input layer, followed by a convolutional layer and a pooling layer. This is followed by two more sets of convolutional + pooling layers. Next there is a dense, fully connected, layer and finally the output logits layer.
+
+What hyperparameters did you test?
+
+Batch size, activation function, number of layers, number of filters, learning rate, optimization function. 
+
+Give a plot of training and validation accuracy as a function of epoch number.
+
+see attached
+
+What is your final testing accuracy?
+
+About 68%
+
+What did you learn from this project? Equivalently, what advice would you give to students doing this assignment in the future?
+
+We learned how coding with unfamiliar libraries can be very challenging, especially a complex library like tensorflow. There are many ways to do one task, each with specific syntax. This has been frustrating, so we would recommend, as always, start earlier and stay caught up with the book.
